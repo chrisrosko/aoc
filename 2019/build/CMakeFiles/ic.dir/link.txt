@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libic.so -o libic.so CMakeFiles/ic.dir/intcode_computer/intcode_computer.cpp.o 

@@ -1,1 +1,0 @@
-/usr/bin/c++  -g  -rdynamic CMakeFiles/day1.dir/day1/main.cpp.o  -o day1  -Wl,-rpath,/home/christian/git/aoc/2019/build libutils.so 
