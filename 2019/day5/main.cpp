@@ -28,7 +28,7 @@ int64_t part_two(std::vector<int64_t> input) {
 }
 
 int main(int argc, char const* argv[]) {
-  std::ifstream fs("/home/christian/git/aoc/2019/day5/input.json");
+  std::ifstream fs("/home/zr0395/workspace/git/aoc/2019/day5/input.json");
   std::vector<int64_t> input;
   {
     cereal::JSONInputArchive ar(fs);

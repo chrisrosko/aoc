@@ -18,7 +18,7 @@ int run_computer(int a, int b, Memory program) {
 }
 
 int main(int argc, char const* argv[]) {
-  std::ifstream fs("/home/christian/git/aoc/2019/day2/input.json");
+  std::ifstream fs("/home/zr0395/workspace/git/aoc/2019/day2/input.json");
   std::vector<int64_t> input;
   {
     cereal::JSONInputArchive ar(fs);

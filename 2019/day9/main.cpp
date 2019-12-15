@@ -10,7 +10,7 @@
 #include <intcode_computer.h>
 
 int main(int argc, char const *argv[]) {
-  std::ifstream fs("/home/christian/git/aoc/2019/day9/input.json");
+  std::ifstream fs("/home/zr0395/workspace/git/aoc/2019/day9/input.json");
   std::vector<int64_t> input;
   {
     cereal::JSONInputArchive ar(fs);

@@ -28,7 +28,7 @@ int part_two(std::vector<int> const & input) {
 
 int main(int argc, char const *argv[])
 {
-  std::ifstream fs("/home/christian/git/aoc/2019/day1/input.json");
+  std::ifstream fs("/home/zr0395/workspace/git/aoc/2019/day1/input.json");
   std::vector<int> input;
   {
     cereal::JSONInputArchive ar(fs);

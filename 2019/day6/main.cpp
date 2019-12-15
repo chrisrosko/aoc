@@ -94,7 +94,7 @@ int part_two(NodeMap const& node_map) {
 }
 
 int main(int argc, char const* argv[]) {
-  std::ifstream fs("/home/christian/git/aoc/2019/day6/input.json");
+  std::ifstream fs("/home/zr0395/workspace/git/aoc/2019/day6/input.json");
   std::vector<std::string> input;
   {
     cereal::JSONInputArchive ar(fs);

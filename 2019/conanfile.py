@@ -12,6 +12,5 @@ class ConanReceipt(ConanFile):
     generators = "cmake"
     build_requires = (
         "boost/1.69.0@conan/stable",
-        "gtest/1.8.1@bincrafters/stable",
         "cereal/1.2.2@conan/stable"
     )

@@ -9,7 +9,7 @@
 #include <algorithm>
 
 int main(int argc, char const* argv[]) {
-  std::ifstream fs("/home/christian/git/aoc/2019/day8/input.json");
+  std::ifstream fs("/home/zr0395/workspace/git/aoc/2019/day8/input.json");
   std::string input;
   {
     cereal::JSONInputArchive ar(fs);
