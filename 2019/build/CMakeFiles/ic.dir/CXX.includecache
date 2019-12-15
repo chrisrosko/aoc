@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../intcode_computer/intcode_computer.h
+vector
+-
+list
+-
+string
+-
+functional
+-
+
+/home/christian/git/aoc/2019/intcode_computer/intcode_computer.cpp
+intcode_computer.h
+-
+algorithm
+-
+sstream
+-
+iostream
+-
+iomanip
+-
+functional
+-
+
